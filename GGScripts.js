@@ -29,7 +29,7 @@ function zoomIn() {
   ctx.clearRect(0,0,w,h)
   k+=2;
   graphpaper();
-  graphQuad();
+  Ggraph();
   results();
 }
 }
@@ -45,7 +45,7 @@ function zoomOut() {
   ctx.clearRect(0,0,w,h)
   k-=2;
   graphpaper();
-  graphQuad();
+  Ggraph();
   results();
 }
 }
