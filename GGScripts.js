@@ -30,7 +30,7 @@ function zoomIn() {
   k+=2;
   graphpaper();
   Ggraph();
-  results();
+
 }
 }
 
@@ -46,7 +46,7 @@ function zoomOut() {
   k-=2;
   graphpaper();
   Ggraph();
-  results();
+ 
 }
 }
 function scaledX(x) {
